@@ -1,4 +1,7 @@
-#program to calculate the area and parameter of rectangle
+#program to calculate the area and parameter of rectangle(validation included)
+#----------------------------------------------------------------------
+print("------------RECTANGLE-----------------")
+#taking input from user
 l = int(input("enter the length of rectangle(in cm) : "))
 b = int(input("enter the breadth of rectangle(in cm) : "))
 #-----------------------------------------------------
