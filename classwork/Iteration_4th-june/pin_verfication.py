@@ -8,6 +8,6 @@ while True:
     if pin == correct_pin:
         print("Access Granted!")
         break
-#-------------------------------------------------------------------
+# The pin is incorrect then    
     else:
         print("Incorrect PIN. Try Again.")
