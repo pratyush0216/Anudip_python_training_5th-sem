@@ -1,25 +1,28 @@
-# Program to check the number is prime or not 
-print("----------------Prime Number----------------")
-#  Taking a number form user 
+print("----- Prime Number Check -----")
+
 num = int(input("Enter a number: "))
-# checking the number is prime or not 
-if num > 1:
-    for i in range(2, num):  
-        if(num % i) == 0:
-            print(num, "is not a prime number ")
+
+count = 0
+
+if num <= 1:
+    print(num, "is not a prime number")
+
+else:
+    # Check divisibility up to square root of num
+    for i in range(2, int(num ** 0.5) + 1):
+        if num % i == 0:
+            count = count + 1
             break
-        if num == 2:
-            print(num, "is a prime number ")
-            break
-        else:
-            print(num, "is a prime number ")
-    2  
-#------------------------------------------------------------
-# The Factor of the number 
-print("The factors of the number are: ")
-for i in range(1, num + 1):
-    if(num % i) == 0:
-        print(i)
+
+    if count == 0:
+        print(num, "is a prime number")
+    else:
+        print(num, "is not a prime number")
+
+        print("Factors are:")
+        for i in range(1, num + 1):
+            if num % i == 0:
+                print(i)
                
 
 
