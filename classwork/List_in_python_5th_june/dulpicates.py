@@ -4,7 +4,7 @@ print("------Create a list-------")
 
 number = []
 # Taking the input for user
-for i in range(20):
+for x in range(20):
     num = int(input("Enter a number : "))
 # append into list
     number.append(num)
