@@ -7,15 +7,15 @@ i = 0
 o = 0
 u = 0
 for ch in s:
-    if ch == "a" or "A":
+    if ch == "a" or ch == "A":
         a += 1
-    elif ch == "e" or "E":
+    elif ch == "e" or ch == "E":
         e += 1    
-    elif ch == "i" or "I":
+    elif ch == "i" or ch == "I":
         i += 1
-    elif ch == "o" or "O":
+    elif ch == "o" or ch == "O":
         o += 1
-    elif ch == "u" or "U":
+    elif ch == "u" or ch == "U":
         u += 1
 
 if(a > 0):
